@@ -1,0 +1,138 @@
+
+*{box-sizing: border-box;}
+.row{  /* height: 50%; */
+    overflow: hidden;
+    display: block;
+    margin-bottom: 0px;
+    position:relative; 
+    right: 0;
+    bottom: 0;
+    justify-content: space-around;
+    width:100%;
+    height:40%;
+    left:-46px;
+    bottom:-55px;
+}
+ #heading{
+    padding-left: 40px;
+    font-size:25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#heading:hover{
+    
+    font-size:30px;
+    }
+
+.col-sm-4{
+    background:aqua;
+    max-width: 100%;
+    
+   
+    
+}
+.card{
+    background:aqua;
+    border:none;
+    height: 350px;
+    padding: 70px;
+}
+
+li:hover{
+    font-size: 25px;
+    color: blue;
+    
+}
+ #one{
+    padding-right: 10px;
+    
+    
+} 
+#one:hover{
+    width:50px;
+    height:50px;
+    color: blue;
+    
+    
+}
+ #two{
+    padding-right: 10px;
+   
+} 
+#two:hover{
+    width:50px;
+    height:50px;
+    color: blue;
+    
+   
+} 
+#three{
+    padding-right:10px;
+    
+}
+#three:hover{
+    width:50px;
+    height:50px;
+    color: blue;
+    
+   
+}
+#four{
+    padding-right:10px;
+    
+}
+#four:hover{
+    width:50px;
+    height:50px;
+    color: blue;
+    
+   
+}
+.bi bi-telephone-fill{
+    size: 40px;
+}
+#links{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:blueviolet;
+    
+    
+    
+}
+.card-title{
+    font-size:20px;
+    color:black;
+    
+}
+.head{
+    font-size: 25px;
+}
+#name{
+    padding-bottom: 30px;
+}
+#heys{
+    padding-top: 20px;
+    padding-right:80px;
+}
+#txt{
+ padding-bottom:0;
+ font-size: 50px;
+}
+#txte{
+    padding-left: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+#txte:hover{
+    font-size: 20px;
+    color: brown;
+}
+#copyryt{
+    text-align: center;
+    padding-top: 100px;
+    padding-right:75px;
+    font-weight:900;
+}
+.row p{
+text-align: center;
+}
