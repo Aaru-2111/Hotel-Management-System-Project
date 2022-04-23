@@ -20,27 +20,45 @@ const Content = () => {
               <p>Our 5-star hotel in Delhi is approximately 9 km from the Indira Gandhi International Airport and within close proximity to the major travel hubs of Delhi. It is also very close to DLF Promenade and many popular shopping destinations such as DLF Emporio, Ambience Mall, and Diplomatic Enclave.</p>
 
           </div><br /><div>
-              <div className="row">
-                  <div className="column">
-                      <img src = {IMAGES.pic1} alt=" " />
-                      <img src = {IMAGES.pic2} alt=" " />
-                      <img src = {IMAGES.pic5} alt=" " />
-                      <img src = {IMAGES.pic7} alt=" " />
-                     
-                      
-                     
-                  </div>
-                  <>
-                      <div className="column">
-                      <img src = {IMAGES.pic3} alt=" " />
-                      <img src = {IMAGES.pic4} alt=" " />
-                      <img src = {IMAGES.pic6} alt=" " />
-                      <img src = {IMAGES.pic8} alt=" " />
-                      </div> </>
+              
+<div class="slider">
+        <div class="imagebox">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src={IMAGES.pic1} alt=" " /></div>
+                    <div class="swiper-slide"><img src={IMAGES.pic2} alt=" " /></div>
+                    <div class="swiper-slide"><img src={IMAGES.pic3} alt=" " /></div>
+                    <div class="swiper-slide"><img src={IMAGES.pic4} alt=" " /></div>
+                    <div class="swiper-slide"><img src={IMAGES.pic5} alt=" " /></div>
+                    <div class="swiper-slide"><img src={IMAGES.pic6} alt=" " /></div>
+                    <div class="swiper-slide"><img src={IMAGES.pic7} alt=" " /></div>
+                    <div class="swiper-slide"><img src={IMAGES.pic8} alt=" " /></div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper= new Swiper('.swiper-container',{
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 500,
+        modifier: 1,
+        slidesShadows: true,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    loop:true,
+});
 
-
-              </div>
-          </div>
+    </script>
           {/* <Footer/> */}
           </div>
   )
