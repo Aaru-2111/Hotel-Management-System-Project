@@ -6,7 +6,7 @@ const Content = () => {
   return (
     <div className="cont">
         <div className="logo">
-          <h1>THE HOTEL GRAND</h1>
+          <h1>D</h1>
           #YourSafety&HealthIsOurPriority
       </div>
       <br />
